@@ -87,7 +87,6 @@ input {
 	margin: 8px 0;
 	width: 100%;
 }
-@media only screen and (min-width: 202px) and (max-width: 399px) {
 
 .container {
 	background-color: #fff;
@@ -97,7 +96,6 @@ input {
 	position: relative;
 	overflow: hidden;
 	min-height: 380px;
-}
 }
 .form-container {
 	position: absolute;

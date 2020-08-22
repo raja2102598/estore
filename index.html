@@ -109,7 +109,7 @@
                                             </li>
                                             <li><a href="#">Pages</a>
                                                 <ul class="submenu">
-                                                    <li><a href="login.html">Login</a></li>
+                                                    <li><a href="login.html" >Login</a></li>
                                                     <li><a href="cart.html">Card</a></li>
                                                     <li><a href="elements.html">Element</a></li>
                                                     <li><a href="about.html">About</a></li>
@@ -123,6 +123,21 @@
                                     </nav>
                                 </div>
                             </div> 
+                            <div class="form-popup" id="myForm">
+                                <form action="/action_page.php" class="form-container">
+                                  <h1>Login</h1>
+                              
+                                  <label for="email"><b>Email</b></label>
+                                  <input type="text" placeholder="Enter Email" name="email" required>
+                              
+                                  <label for="psw"><b>Password</b></label>
+                                  <input type="password" placeholder="Enter Password" name="psw" required>
+                              
+                                  <button type="submit" class="btn">Login</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                                </form>
+                              </div>
+                              
                             <div class="col-xl-5 col-lg-3 col-md-3 col-sm-3 fix-card">
                                 <ul class="header-right f-right d-none d-lg-block d-flex justify-content-between">
                                     <li class="d-none d-xl-block">
@@ -143,7 +158,7 @@
                                             <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
                                         </div>
                                     </li>
-                                   <li class="d-none d-lg-block"> <a href="#" class="btn header-btn">Sign in</a></li>
+                                   <li class="d-none d-lg-block"> <button onclick="openForm()" class="btn header-btn">Sign in</button></li>
                                 </ul>
                             </div>
                             <!-- Mobile Menu -->
@@ -1162,7 +1177,8 @@
    </footer>
    
 	<!-- JS here -->
-	
+	<script src="./assets/js/script.js"></script>
+   
 		<!-- All JS Custom Plugins Link Here here -->
         <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 		<!-- Jquery, Popper, Bootstrap -->

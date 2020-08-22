@@ -1,0 +1,19 @@
+{
+	"name": "estore",
+	"version": "1.0.0",
+	"description": "web store",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/raja2102598/estore.git"
+	},
+	"author": "raja j",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/raja2102598/estore/issues"
+	},
+	"homepage": "https://github.com/raja2102598/estore#readme"
+}
